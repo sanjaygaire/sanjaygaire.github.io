@@ -1,27 +1,19 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Navbar from './components/Navbar';
+import About from './components/About';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
 
-import React from 'react'
-import Home from './componentss/Home'
-
-const App = () => {
+function App() {
   return (
     <>
-    <div>
-      <h2>
-        hi this is sanjay
-      </h2>
-      <p>
-        message to elis: f u 
-      </p>
-    </div>
-    <Home></Home>
-    {/* <Home></Home> */}
-    
+      <Navbar />
+      <main className="container mt-5">
+        <About />
+        <Projects />
+        <Contact />
+      </main>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
