@@ -15,7 +15,7 @@ const App = () => {
       </h2>
     </div>
     <Home></Home>
-    <Home></Home>
+    {/* <Home></Home> */}
     
     </>
   )
