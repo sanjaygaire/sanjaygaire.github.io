@@ -13,6 +13,9 @@ const App = () => {
       <h2>
         hi this is sanjay
       </h2>
+      <p>
+        message to elis: f u 
+      </p>
     </div>
     <Home></Home>
     {/* <Home></Home> */}
