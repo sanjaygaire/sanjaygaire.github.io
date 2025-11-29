@@ -6,9 +6,17 @@ export default defineConfig({
   server: {
     host: true,
     port: 3000,
-    allowedHosts: ['gairesanjay.com.np'],
+    allowedHosts: [
+      'gairesanjay.com.np',
+      'www.gairesanjay.com.np'
+    ],
     cors: {
-      origin: ['https://gairesanjay.com.np', 'http://gairesanjay.com.np']
+      origin: [
+        'https://gairesanjay.com.np',
+        'http://gairesanjay.com.np',
+        'https://www.gairesanjay.com.np',
+        'http://www.gairesanjay.com.np'
+      ]
     },
     open: false
   },
