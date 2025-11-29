@@ -7,6 +7,9 @@ export default defineConfig({
     host: true,
     port: 3000,
     allowedHosts: ['gairesanjay.com.np'],
-    open: false   // do NOT auto-open in server mode
+    cors: {
+      origin: ['https://gairesanjay.com.np', 'http://gairesanjay.com.np']
+    },
+    open: false
   },
 })
